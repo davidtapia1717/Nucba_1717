@@ -1,0 +1,18 @@
+body {background-color: rgb(62, 2, 77);}
+h1 {font-size: 100px;
+    color: salmon;
+    background-color: rgb(96, 244, 108);
+    text-align: center;
+}
+
+.tardis {font-size: 40px;
+   color: yellow;
+   text-align: center;
+}
+
+.doctores { font-size: 30px;
+  color: aliceblue;
+  background-color: rgb(20, 235, 20);
+  border: 2px black;
+  border-radius: 5px;
+}
