@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- aca va el contenido que los humanos no ven -->
+     <title> Clase 01</title>
+
+</head>
+<body>
+     <!-- aca va el contenido que los humanos ven -->
+     <h1>Este es el titulo principal, se puede usar una sola vez por archivo</h1>
+     <h2>este es el subtitulo</h2>
+     <h3>Titulos de secciones</h3>
+     <h4>Titulos de articulos</h4>
+     <h5>acepto terminos y condiciones</h5>
+     <h6>la letra chica</h6>
+
+     <!-- PARRAFOS -->
+     <p>Esto es un parrafo</p>
+
+     <!-- LISTAS -->
+     <!-- Listas ordenadas , organized list?-->
+     <ol>
+         <li>elemento 1</li>
+         <li>elemento 2</li>
+         <li>elemento 3</li>
+         <li>elemento 4</li>
+         <li>elemento 5</li>
+     </ol>
+     <!-- Listas desordenadas, unorganized lists -->
+     <ul>
+         <li>elemento
+             <ol>
+                 <li> element 1 anidado</li>
+            </ol>
+         </li>
+
+         <li>elemento</li>
+         <li>elemento</li>
+         <li>elemento</li>
+         <li>elemento</li>
+     </ul>
+
+     <!-- hipervinculos -->
+     <a href="https://www.google.com" target="_blank">IR A GOOGLE</a>
+
+     <!-- como saletear renglones, breack line -->
+     <br>
+
+     <!-- imagenes, src source (fuente), alt cuando la imagen se rompe o para los no videntes-->
+     <a href="https://www.minutouno.com/carpinchos/en-uruguay-el-carpincho-esta-protegido-y-tiene-moneda-n5257971">
+        <img src="https://media.minutouno.com/p/5ba2f132a89e87903beeadb726699208/adjuntos/150/imagenes/039/281/0039281377/1200x900/smart/carpincho_rogerjpg.jpg" alt="descripcion muy precisa de la imagen que se esta viendo">
+     </a>
+
+     <!-- como poner una imagen locao -->
+      
+     <img src="./assets/carpincho.jpg" alt="imagen carpincho ganador">
+
+     <!-- hay dos categorias, semanticos y no semanticos, los no semanticos no nos dice nada de su contenido, como la a o la lista desordenada, los semanticos nos define que tipo de contenido llevan adentro las etiquetas, header nav section aside article footer -->
+     
+     <section>
+         <h2> esto es una seccion</h2>
+         <article>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, debitis. Porro libero corrupti, ab optio molestias nobis excepturi sit dignissimos, alias ut debitis cum voluptas velit distinctio qui sed tempore!
+            </p>
+         </article>
+         <article>
+             esto es un articulo y puede estar compuesto por diferentes parrafos, imagenes, hipervinculos etc.
+         </article>
+     </section>
+
+     <!-- los DIVS, es como una caja, no tiene ninguna funcionalidad pero es la mas funcional en css js, son contenedores y generalmente se les suele asignar id, cada div le va a dar un estilo con css supongo, es una etiqueta que no hace nada hasta que le damos una funcionalidad con otro lenguaje -->
+
+     <div id="aca va un nombre">
+        <section>
+            <h2> esto es una seccion</h2>
+            <article>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, debitis. Porro libero corrupti, ab optio molestias nobis excepturi sit dignissimos, alias ut debitis cum voluptas velit distinctio qui sed tempore!
+               </p>
+            </article>
+            <article>
+                esto es un articulo y puede estar compuesto por diferentes parrafos, imagenes, hipervinculos etc.
+            </article>
+        </section>
+     </div>
+
+     <!-- formularios -->
+      <!-- label es un atributo, es darle una etiqueta/identidad al input, va antes del input -->
+      <!-- Placeholder sirve para mostrar un ejemplo en el input  -->
+     <form >
+         <label for="Nombre">Nombre y Apellido:</label>
+         <input name="Nombre" type="text" placeholder="Nombre y apellido">
+         <br>
+         <label for="Mail">Email:</label>
+         <input type="email" required>
+         <br>
+         <input type="number" >
+         <br>
+         <input type="password" >
+         <br>
+         <input type="date" >
+         <br>
+         <input type="color">
+         <br>
+         <select >
+             <option value="Femenino">F</option>
+             <option value="Masculino">M</option>
+             <option value="No binario">X</option>
+         </select>
+         <br>
+         <input type="checkbox"> <input type="radio"> <!--el radio no se puede destildar-->
+         <br>
+        <input type="file">
+         <br>
+         <input type="submit">
+     </form>
+     <!-- freecodecamp.org para practicar -->
+
+     <video width="320" height="240" controls>
+        <source src="https://www.youtube.com/watch?v=dUIRO4-9PTU">
+     </video>
+</body>
+</html>

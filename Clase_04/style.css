@@ -1,3 +1,16 @@
+/* para asociar nuestro class a un estilo se coloca un punto al comienzo
+para asociar una etiqueta a un estilo solo se coloca la etiqueta, pero esta va a afectar a todas 
+las etiquetas con el mismo nombre */
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* con asterisco te toma todo,*/
+
+
 body {background-color: rgb(62, 2, 77);}
 h1 {font-size: 100px;
     color: salmon;
@@ -15,4 +28,9 @@ h1 {font-size: 100px;
   background-color: rgb(20, 235, 20);
   border: 2px black;
   border-radius: 5px;
+}
+
+h3{
+  background-color: saddlebrown;
+
 }

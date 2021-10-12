@@ -1,0 +1,28 @@
+git - 
+
+salva vidas, controlador de versiones, registro de cambios en archivos de computadora incluyendo coordinar el trabajo de varias personas
+
+SE PUEDE 
+1-guardar nuestro codigo
+2- versionar nuestro codigo
+3-volver hacia atras cuando rompemos nuestro codigo
+4-trabajar de forma colaborativa
+5-aplicar buenas practicas de programacion
+6- te permite trabajar offline tmb , despues lo subis
+
+GIT BASH
+
+git branch -m master main (para posicionarse en main)
+cd y direccion para posicionar la carpeta
+init una vez 
+git add.
+git commit -m "primer commit".
+git remote add origin ....
+
+Los pasos para subir un archivo
+
+1. me posiciono con la consola en la carpeta de mi repositorio
+2 uso el comando "git add ." o "git add -A"
+3. uso el comando "git commit -m" que lleva un mensaje de etiqueta
+4.Hacemos un "git status"
+5. git push 
