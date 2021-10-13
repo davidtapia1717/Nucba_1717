@@ -1,0 +1,48 @@
+* { 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0px;
+
+}
+
+body {
+    background-image: linear-gradient(90deg, red,orange, yellow, green, blue, indigo, violet);
+}
+/* para hacer un degrade
+background-image: linear-gradient(direccion, color1, color2) */
+
+/* body {
+    background-color: lawngreen;
+    background-image: url(https://sumedico.blob.core.windows.net/images/2020/12/03/7curiosidadesperrossalchichas.jpg);
+    background-size: 1000px;
+    background-position: top;
+    background-attachment: fixed;
+    imagenes svg mejor calidad? */
+
+
+
+/* con el asterisco reseteamos el documento */
+
+/* las etiquetas dentro de css se llaman selectores, las llaves son declaraciones, lo que va dentro de llaves son propiedades, lo que va dentro de propiedades son valores  */
+
+/* selectores de clase */
+.perritosalchicha{
+    background-color: red;
+}
+
+/* # para id */
+#perritosalchicha {
+    background-color: violet;
+}
+
+/* selectores multiples */
+h1, h2, h3 {
+    margin-top: 10px;
+    background-color: gold;
+}
+
+/* se pueden combinar clases con elementos */
+
+h4, .clase1 {
+    background-color: indigo;
+}
