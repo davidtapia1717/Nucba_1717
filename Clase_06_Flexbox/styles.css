@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre {
+    background-color: red;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: flex-end; /* eje Y */ 
+    align-items: center; /* eje X */
+    flex-wrap: wrap;
+}
+
+.hijo {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 1px solid black;
+    font-size: 30px;
+}
