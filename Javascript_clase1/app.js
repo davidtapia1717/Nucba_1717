@@ -42,3 +42,4 @@ alert("La suma es: " + resultadoSuma);
 //NaN  = not a number
 //parseInt() sirve para convertir un string de un numero entero a numero entero
 //parseFloat() toma un numero sea entero o decimal, en string y lo convierte a float o double
+
