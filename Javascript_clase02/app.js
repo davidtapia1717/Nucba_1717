@@ -99,8 +99,41 @@
 // alert('Hola ' + nombre + ' la temperatura en celsius es: ' + celsius);
 
 //EJERCICIO 14
-let numero = parseInt(prompt('coloque un numero'));
-let suma = numero + 5;
-let multiplicacion = suma * 10;
-let division = multiplicacion / 3;
-alert(division);
+// let numero = parseInt(prompt('coloque un numero'));
+// let suma = numero + 5;
+// let multiplicacion = suma * 10;
+// let division = multiplicacion / 3;
+// alert(division);
+
+//BONUS
+// Solicitar dos números y mostrar la suma de sus cifras. (Ejemplo: 15 y 29, mostrar 1529)
+// let numeroUno = (prompt('coloque un numero'));
+// let numeroDos = (prompt('coloque otro numero'));
+// let suma = numeroUno + numeroDos;
+// alert(suma);
+
+//Crear un conversor de años a segundos. Solicitar al usuario una cantidad de días y mostrar su equivalente en segundos por alert o alert, a elección. (Pueden probar también con números con coma :) 2,5 años por ejemplo)
+// let dias = parseInt(prompt('coloque la cantidad de dias'));
+// let segundos = dias * 86400;
+// alert('Es equivalente a ' + segundos + ' segundos.');
+
+//Solicitar al usuario que ingrese la cantidad de kilómetros que desea recorrer con su motocicleta. A continuación solicitar la velocidad promedio a la que desea ir en kilómetros por hora. Calcular el tiempo estimado en llegar a destino en minutos.  A tener en cuenta: la velocidad se calcula en metros sobre segundos!)
+// let kilometros = parseInt(prompt('coloque la cantidad de kilometros que desea recorrer'));
+// let velocidad = parseInt(prompt('coloque la velocidad promedio en Kilometros por Hora'));
+// let tiempoEnHoras = kilometros / velocidad;
+// let tiempoEnMinutos = tiempoEnHoras * 60;
+// alert('Tiempo estimado en llegar en minutos ' + tiempoEnMinutos);
+
+//Realizar una calculadora de sueldo neto. Se solicita ingresar el sueldo bruto y se descuenta: Obra social 3%, jubilación 11%, Ley 19032 3%. Mostrar el monto de cada una de las deducciones y el monto final. No contempla impuesto a las ganancias ni sindicatos.
+// ej: Sueldo bruto: $70.000
+// Deducciones:
+// Obra social: $2100
+// Ley 19032: $2100
+// Jubilación: $7700
+// Neto a pagar: $58100
+let sueldoBruto = parseInt(prompt('Ingrese su sueldo Bruto'));
+let obraSocial = (sueldoBruto * 3) / 100;
+let jubilacion = (sueldoBruto * 11) / 100;
+let ley19032 = (sueldoBruto * 3) / 100;
+let sueldoNeto = sueldoBruto - obraSocial - jubilacion - ley19032;
+alert('Su sueldo Neto es de ' + sueldoNeto);
